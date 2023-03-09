@@ -1,0 +1,81 @@
+header {
+    padding: 15px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header button {
+    background-color: #f9dd00;
+    padding: 20px;
+    border: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.imagecover {
+    display: flex;
+    background-size: cover;
+    background-image: url(./photo_2023-03-02_02-24-46.jpg);
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagenav ul {
+    display: flex;
+    gap: 30px;
+    padding-left: 300px;
+}
+
+.imagenav li {
+    list-style-type: none;
+    color: white;
+    font-family: visby cf, Sans-serif !important;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.titleone {
+    font-family: visby cf, Sans-serif !important;
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: lowercase;
+    line-height: 1px;
+    letter-spacing: -1.2px;
+    color: #4a4a4a;
+}
+
+.titletwo {
+    color: #4a4a4a;
+    font-size: 38px;
+    font-weight: 300;
+    font-family: visby cf, Sans-serif !important;
+    line-height: .1em;
+    letter-spacing: -.1px;
+}
+
+#education{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card{
+    padding: 50px;
+    border: 1px solid gray;
+}
+.cards{
+    display: flex;
+}
